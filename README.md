@@ -59,11 +59,31 @@ import React, { useEffect } from 'react'; // add this.
 import SplashScreen from 'react-native-splash-screen' //add this.
 
 export public function App extends Component{
+    // add this.
     useEffect(() => {
         SplashScreen.hide();
     }, [])
+
+    ....
     render(){
         return(......)
+    }
+}
+```
+
+**Import Platform & StatusBar**
+```
+import { Platform, StatusBar, SafeAreaView } from "react-native"
+
+export public function App extends Component{
+    ......
+    render(){
+        return(
+            <SafeAreaView>
+                {Platform.OS === 'ios' && <StatusBar barStyle="light-content" />}
+                ......
+            </SafeAreaView>
+        )
     }
 }
 ```
