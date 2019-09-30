@@ -1,3 +1,7 @@
+#RNSplash
+##React Native Splash Screen
+
+
 *******************
 Change Default Background Color for the all Screen
 *******************
