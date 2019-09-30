@@ -1,9 +1,9 @@
 # RNSplash
 ##### React Native Splash Screen
 
-************
-Change Default Background Color for the all Screen
-************
+
+## Change Default Background Color for the all Screen
+
 
 **Add this Line in** ``` android/app/src/main/res/values/colors.xml ```
 ```
@@ -44,9 +44,8 @@ Change Default Background Color for the all Screen
 
 
 
-************
-To Change Splash Screen Background Color.
-************
+## To Change Splash Screen Background Color.
+
 **Edit this Line in** ``` android/app/src/main/res/values/colors.xml ```
 ```
 <resources>
