@@ -52,3 +52,18 @@
     <color name="splashscreen_bg">(your color)</color>
 </resources>
 ```
+
+**Add this Line in** ```App.js```
+```
+import React, { useEffect } from 'react'; // add this.
+import SplashScreen from 'react-native-splash-screen' //add this.
+
+export public function App extends Component{
+    useEffect(() => {
+        SplashScreen.hide();
+    }, [])
+    render(){
+        return(......)
+    }
+}
+```
