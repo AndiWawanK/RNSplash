@@ -1,12 +1,11 @@
-#RNSplash
-##React Native Splash Screen
-
+# RNSplash
+##### React Native Splash Screen
 
 *******************
 Change Default Background Color for the all Screen
 *******************
 
-Add this Line in ``` android/app/src/main/res/values/colors.xml ```
+**Add this Line in** ``` android/app/src/main/res/values/colors.xml ```
 ```
 <resources>
     ......
@@ -14,7 +13,7 @@ Add this Line in ``` android/app/src/main/res/values/colors.xml ```
 </resources>
 ```
 
-Add this Line in ``` android/app/src/main/res/values/styles.xml ``` 
+**Add this Line in** ``` android/app/src/main/res/values/styles.xml ``` 
 ```
 .....
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -23,7 +22,7 @@ Add this Line in ``` android/app/src/main/res/values/styles.xml ```
 </style>
 ```
 
-To set the Default Status Bar Color for the all Screen, Add this Line in ``` android/app/src/main/res/values/styles.xml ```
+**To set the Default Status Bar Color for the all Screen, Add this Line in** ``` android/app/src/main/res/values/styles.xml ```
 ```
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
     .....
@@ -31,7 +30,7 @@ To set the Default Status Bar Color for the all Screen, Add this Line in ``` and
 </style>
 ```
 
-To set the Default Status Bar Text Color, Add this Line in ``` android/app/src/main/res/values/styles.xml ```
+**To set the Default Status Bar Text Color, Add this Line in** ``` android/app/src/main/res/values/styles.xml ```
 ```
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
     .....
@@ -48,7 +47,7 @@ To set the Default Status Bar Text Color, Add this Line in ``` android/app/src/m
 *******************
 To Change Splash Screen Background Color.
 *******************
-Edit this Line in ``` android/app/src/main/res/values/colors.xml ```
+**Edit this Line in** ``` android/app/src/main/res/values/colors.xml ```
 ```
 <resources>
     <color name="splashscreen_bg">(your color)</color>
